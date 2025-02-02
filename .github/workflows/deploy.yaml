@@ -14,7 +14,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: "18.20.5"
-      # Pick your own package manager and build script
       - run: yarn install
       - run: yarn build --preset github_pages
       - name: Upload artifact
