@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxi build",
+    "dev": "nuxi dev",
+    "start": "node .output/server/index.mjs",
+    "lint": "eslint .",
+    "postinstall": "nuxi prepare",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "@antfu/eslint-config": "4.1.0",
+    "@egjs/vue3-flicking": "4.12.0",
+    "@iconify-json/carbon": "1.2.5",
+    "@iconify/vue": "4.3.0",
+    "@nuxtjs/color-mode": "3.5.2",
+    "@nuxtjs/tailwindcss": "6.13.1",
+    "@pinia-orm/nuxt": "1.10.1",
+    "@pinia/nuxt": "0.4.11",
+    "@vueuse/nuxt": "12.5.0",
+    "axios": "1.7.9",
+    "nuxt": "^3.15.4",
+    "primevue": "4.2.5",
+    "typescript": "5.7.3",
+    "vue-i18n": "11.1.0"
+  },
+  "devDependencies": {
+    "@iconify-json/twemoji": "^1.2.2"
+  }
+}
