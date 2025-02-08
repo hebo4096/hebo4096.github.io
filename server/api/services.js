@@ -6,8 +6,8 @@ export default defineEventHandler(() => {
       id: 1,
       title: 'Kubernetes',
       description: {
-        en: 'I troubleshoot issue on Managed Kubernetes Service on Public Cloud, based on OS / Network level troubleshooting',
-        ja_JP: 'パブリッククラウドのマネージドな Kubernetes サービスの技術検証 / トラブルシューティング / 機能開発の経験があります',
+        en: 'I troubleshoot issue on Managed Kubernetes Service on Public Cloud based on OS / Network level',
+        ja_JP: 'パブリッククラウドのマネージドな Kubernetes サービス周りの技術検証 / トラブルシューティング / 機能検証の経験があります',
       },
       icon: 'devicon:kubernetes',
       image: null,
@@ -36,8 +36,8 @@ export default defineEventHandler(() => {
       id: 4,
       title: 'Linux',
       description: {
-        en: 'OS level troubleshooting and writes script to prepare the test environments',
-        ja_JP: 'OS レベルのトラブルシューティングや、検証環境構築における自動化スクリプトの作成経験があります',
+        en: 'OS level troubleshooting and writes shell script to prepare the test environments',
+        ja_JP: 'OS レベルのトラブルシューティングや、検証環境作成にあたる自動化シェルスクリプトの作成経験があります',
       },
       icon: 'devicon:linux',
       image: null,
@@ -47,7 +47,7 @@ export default defineEventHandler(() => {
       title: 'Development',
       description: {
         en: 'Have experience of Web Application based on Agile Development',
-        ja_JP: 'Web アプリケーションについて、アジャイルでの開発経験があります',
+        ja_JP: 'アジャイルでの Web アプリケーション開発経験があります',
       },
       icon: 'devicon:github',
       image: null,
@@ -62,5 +62,15 @@ export default defineEventHandler(() => {
       icon: 'devicon:typescript',
       image: null,
     },
+    {
+      id: 6,
+      title: 'IaC',
+      description: {
+        en: 'Have IaC inspection experience with Hashicorp Terraform and Microsoft Bicep',
+        ja_JP: 'Hashicorp の Terraform や、Microsoft の Bicep を用いた IaC 検証の経験があります',
+      },
+      icon: 'devicon:terraform',
+      image: null,
+    }
   ]
 })

@@ -22,8 +22,8 @@ function changeLang() {
 </script>
 
 <template>
-  <div class="cursor-pointer transition-all fade" @click="changeLang()">
-    <img :src="`/flags/${locale}.png`" class="h-6">
+  <div class="cursor-pointer transition-all fade lang-switcher" @click="changeLang()">
+    <img :src="`/flags/${locale}.png`" class="h-6 m-1"><span>switch language</span>
   </div>
 </template>
 
