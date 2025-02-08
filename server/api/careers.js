@@ -106,8 +106,8 @@ export default defineEventHandler(() => {
         ja_JP: 'インターン'
       },
       desc: {
-        en: 'TBD',
-        ja_JP: 'TBD',
+        en: 'I was primarily responsible for technical verification and documentation of IDaaS products. Responsible for the technical area of authentication (SAML Authentication / SCIM, etc.). Took part in web page designing of the corporate website using Vue.js',
+        ja_JP: 'IDaaS 製品の技術検証やドキュメント作成を主に担当してました。認証 ( SAML 認証 / SCIM 等) の技術領域を主に担当。その他にも Vue.js を使用したコーポレートサイトの作成にも従事しました。',
       },
     },
 

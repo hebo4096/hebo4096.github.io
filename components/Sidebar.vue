@@ -17,6 +17,7 @@ function toggleMenu() {
         <h1 class="name" title="Shogo Shimahara">
           Shogo Shimahara
         </h1>
+        <LangSwitcher2 />
       </div>
 
       <button class="info_more-btn" @click="isOpen = !isOpen">
@@ -88,9 +89,6 @@ function toggleMenu() {
       </ul>
 
       <div class="separator" />
-      <ul class="social-list">
-        <LangSwitcher2 />
-      </ul>
     </div>
   </aside>
 </template>
