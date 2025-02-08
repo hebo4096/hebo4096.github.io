@@ -1,11 +1,15 @@
 <script setup>
+import { useI18n } from 'vue-i18n'
 import axios from "axios"
 
 useHead({
   title: 'Pub/Blog',
 });
 
+const { locale } = useI18n({ useScope: 'global' })
 const { data: zenn } = await useFetch('/api/zenn');
+const { data: pubblogs } = await useFetch('/api/pubblog');
+
 const articles = null;
 
 function parseDate(dateTime) {
@@ -42,9 +46,7 @@ function parseDate(dateTime) {
                 <time>{{ parseDate(article?.published_at) }}</time>
               </div>
               <h3 class="h3 pubblog-item-title">{{ article?.title }}</h3>
-              <p class="pubblog-text">
-                Articles on Zenn
-              </p>
+                <p v-html="locale === 'en' ? pubblogs[0].description?.en : pubblogs[0].description?.ja_JP" class="pubblog-text"></p>
             </div>
           </a>
         </li>
@@ -60,9 +62,7 @@ function parseDate(dateTime) {
                 <time>2023 年 7 月 25 日</time>
               </div>
               <h3 class="h3 pubblog-item-title">Access Control Management System for Edge Computing Environment Using Tag-Based Matching and Cache Injection</h3>
-              <p class="pubblog-text">
-                Journal published when I was in the masters' degree.
-              </p>
+              <p v-html="locale === 'en' ? pubblogs[1].description?.en : pubblogs[1].description?.ja_JP" class="pubblog-text"></p>
             </div>
           </a>
         </li>
@@ -78,9 +78,7 @@ function parseDate(dateTime) {
                 <time>2023 年 7 月 25 日</time>
               </div>
               <h3 class="h3 pubblog-item-title">Dataflow Management Platform for Smart Communities using an Edge Computing Environment</h3>
-              <p class="pubblog-text">
-                Journal published when I was in the masters' degree.
-              </p>
+              <p v-html="locale === 'en' ? pubblogs[2].description?.en : pubblogs[2].description?.ja_JP" class="pubblog-text"></p>
             </div>
           </a>
         </li>

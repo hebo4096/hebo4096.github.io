@@ -123,5 +123,30 @@ export default defineEventHandler(() => {
       image: '/images/koeken.png',
       url: 'https://www.keiokoeken.com/',
     },
+    {
+      id: 6,
+      title: 'Kubestronaut',
+      category: {
+        id: 1, //see categories.js
+        date: {
+          en: 'January 2025',
+          ja_JP: '2025 年 1 月',
+        },
+        title: {
+          en: 'Certificate',
+          ja_JP: '資格',
+        },
+      },
+      content: {
+        en: 'Published by Cloud Native Computing Foundation (CNCF)',
+        ja_JP: 'Cloud Native Computing Foundation (CNCF) より発行',
+      },
+      desc: {
+          en: '',
+          ja_JP: '',
+        },
+      image: '/images/kubestronaut.png',
+      url: '',
+    },
   ]
 })
