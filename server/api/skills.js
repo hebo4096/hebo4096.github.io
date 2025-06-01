@@ -146,7 +146,7 @@ export default defineEventHandler(() => {
           ja_JP: '',
         },
       image: '/images/kubestronaut.png',
-      url: '',
+      url: 'https://www.cncf.io/training/kubestronaut/?_sft_lf-country=jp&p=shogo-shimahara',
     },
   ]
 })

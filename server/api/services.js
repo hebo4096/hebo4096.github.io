@@ -6,8 +6,8 @@ export default defineEventHandler(() => {
       id: 1,
       title: 'Kubernetes',
       description: {
-        en: 'I troubleshoot issue on Managed Kubernetes Service on Public Cloud based on OS / Network level',
-        ja_JP: 'パブリッククラウドのマネージドな Kubernetes サービス周りの技術検証 / トラブルシューティング / 機能検証の経験があります',
+        en: 'I have experience troubleshooting issue of Managed Kubernetes Service on Public Cloud.',
+        ja_JP: 'パブリッククラウドのマネージド Kubernetes サービス周りの技術検証 / トラブルシューティング / 機能検証の経験があります',
       },
       icon: 'devicon:kubernetes',
       image: null,
@@ -26,8 +26,8 @@ export default defineEventHandler(() => {
       id: 3,
       title: 'Azure',
       description: {
-        en: 'Currently working on inspection and troubleshooting of Azure Container Services.',
-        ja_JP: 'Azure におけるコンテナー サービス・認証技術の技術検証やトラブルシューティング経験があります',
+        en: 'Have Experience on inspection and troubleshooting of Azure Container and Authn/Authz Services.',
+        ja_JP: 'Azure におけるコンテナー・認証・認可技術の検証やトラブルシューティング経験があります',
       },
       icon: 'devicon:azure',
       image: null,
@@ -54,12 +54,12 @@ export default defineEventHandler(() => {
     },
     {
       id: 6,
-      title: 'TypeScript',
+      title: 'Frontend Development',
       description: {
         en: 'Have experience developing Frontend Application by Vue, Nuxt and Angular',
         ja_JP: 'Vue / Nuxt / Angular などのフロントエンド フレームワークを使用した開発経験があります',
       },
-      icon: 'devicon:typescript',
+      icon: 'devicon:angular',
       image: null,
     },
     {
