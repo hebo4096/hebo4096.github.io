@@ -142,8 +142,8 @@ export default defineEventHandler(() => {
         ja_JP: 'Cloud Native Computing Foundation (CNCF) より発行',
       },
       desc: {
-          en: '',
-          ja_JP: '',
+          en: 'Show Page',
+          ja_JP: 'ページを見る',
         },
       image: '/images/kubestronaut.png',
       url: 'https://www.cncf.io/training/kubestronaut/?_sft_lf-country=jp&p=shogo-shimahara',
