@@ -32,7 +32,22 @@ function parseDate(dateTime) {
     </header>
     <section class="pubblog-posts">
       <ul class="pubblog-posts-list">
-
+        <li class="pubblog-post-item">
+          <a href="https://techbookfest.org/product/pgvTLjbYT22BSJjPvfLxA0?productVariantID=fjiVFK3gAV2Be5g0GcBEmE">
+            <figure class="pubblog-banner-box">
+              <img src="/images/techbook-fest-19.png" alt="Azure Container Network Interface (CNI) の歴史と仕組みガイド" loading="lazy">
+            </figure>
+            <div class="pubblog-content">
+              <div class="pubblog-meta">
+                <p class="pubblog-category">Fanbook</p>
+                <span class="dot" />
+                <time>2025 年 11 月 16 日</time>
+              </div>
+              <h3 class="h3 pubblog-item-title">Azure Container Network Interface (CNI) の歴史と仕組みガイド</h3>
+              <p v-html="locale === 'en' ? pubblogs[1].description?.en : pubblogs[1].description?.ja_JP" class="pubblog-text"></p>
+            </div>
+          </a>
+        </li> 
         <!-- articles related to Zenn -->
         <li v-for="article in zenn.articles" :key="article.id" class="pubblog-post-item">
           <a :href="`https://zenn.dev${article?.path}`">
@@ -57,7 +72,7 @@ function parseDate(dateTime) {
             </figure>
             <div class="pubblog-content">
               <div class="pubblog-meta">
-                <p class="pubblog-category">Docs</p>
+                <p class="pubblog-category">Journal</p>
                 <span class="dot" />
                 <time>2023 年 7 月 25 日</time>
               </div>
@@ -73,7 +88,7 @@ function parseDate(dateTime) {
             </figure>
             <div class="pubblog-content">
               <div class="pubblog-meta">
-                <p class="pubblog-category">Docs</p>
+                <p class="pubblog-category">Paper</p>
                 <span class="dot" />
                 <time>2023 年 7 月 25 日</time>
               </div>

@@ -10,6 +10,12 @@ export default defineEventHandler(() => {
     },
     {
       description: {
+        en: 'Book published at Techbook Festival',
+        ja_JP: '技術書展で販売した同人誌',
+      },
+    },
+    {
+      description: {
         en: 'Reviewed Journal paper published when I was in the masters\' degree.',
         ja_JP: '修士課程の時に投稿した査読つき学術論文誌',
       },
